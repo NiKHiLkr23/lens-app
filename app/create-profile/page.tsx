@@ -4,7 +4,7 @@ import { LensClient, development, isRelaySuccess } from "@lens-protocol/client";
 import { useWeb3Modal } from "@web3modal/wagmi/react";
 import React from "react";
 import { useAccount, useSignMessage } from "wagmi";
-import { CreateProfileForm } from "./create-profile-form";
+import { CreateProfileForm } from "../../components/forms/create-profile-form";
 
 const lensClient = new LensClient({
   environment: development,
